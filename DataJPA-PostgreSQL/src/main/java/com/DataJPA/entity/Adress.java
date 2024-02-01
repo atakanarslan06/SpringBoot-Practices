@@ -30,7 +30,7 @@ public class Adress implements Serializable  {
     @JoinColumn(name ="user_adress_id")
     private User user;
 
-    enum  AdresType{
+    public enum  AdresType{
         HOME_ADRESS,
         WORK_ADRESS,
         OTHER

@@ -1,5 +1,8 @@
 package com.DataJPA.repository;
 
-public interface IAdressRepository {
+import com.DataJPA.entity.Adress;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface IAdressRepository extends JpaRepository<Adress, Long> {
 
 }
