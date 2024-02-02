@@ -14,6 +14,7 @@
         <module name="ApiDoc" />
         <module name="Dockerization" />
         <module name="Rest-Template" />
+        <module name="WebSocket" />
       </profile>
     </annotationProcessing>
   </component>
@@ -26,6 +27,7 @@
       <module name="Elasticsearch" options="-parameters" />
       <module name="Redis-Cache" options="-parameters" />
       <module name="Rest-Template" options="-parameters" />
+      <module name="WebSocket" options="-parameters" />
     </option>
   </component>
 </project>
