@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/ApiDoc/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/DataJPA-PostgreSQL/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Dockerization/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Elasticsearch/src/main/java" charset="UTF-8" />
   </component>
 </project>

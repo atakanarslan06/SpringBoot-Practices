@@ -7,8 +7,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Elasticsearch" />
         <module name="ApiDoc" />
+        <module name="Elasticsearch" />
+        <module name="Dockerization" />
         <module name="DataJPA-PostgreSQL" />
       </profile>
     </annotationProcessing>
@@ -17,6 +18,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="ApiDoc" options="-parameters" />
       <module name="DataJPA-PostgreSQL" options="-parameters" />
+      <module name="Dockerization" options="-parameters" />
       <module name="Elasticsearch" options="-parameters" />
     </option>
   </component>
