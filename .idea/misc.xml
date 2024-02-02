@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/Elasticsearch/pom.xml" />
         <option value="$PROJECT_DIR$/ApiDoc/pom.xml" />
         <option value="$PROJECT_DIR$/Dockerization/pom.xml" />
+        <option value="$PROJECT_DIR$/AOP/pom.xml" />
       </list>
     </option>
     <option name="workspaceImportForciblyTurnedOn" value="true" />
