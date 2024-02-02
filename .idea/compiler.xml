@@ -7,12 +7,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ApiDoc" />
         <module name="AOP" />
         <module name="Elasticsearch" />
+        <module name="Redis-Cache" />
+        <module name="DataJPA-PostgreSQL" />
+        <module name="ApiDoc" />
         <module name="Dockerization" />
         <module name="Rest-Template" />
-        <module name="DataJPA-PostgreSQL" />
       </profile>
     </annotationProcessing>
   </component>
@@ -23,6 +24,7 @@
       <module name="DataJPA-PostgreSQL" options="-parameters" />
       <module name="Dockerization" options="-parameters" />
       <module name="Elasticsearch" options="-parameters" />
+      <module name="Redis-Cache" options="-parameters" />
       <module name="Rest-Template" options="-parameters" />
     </option>
   </component>

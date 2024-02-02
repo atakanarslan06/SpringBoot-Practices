@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/Dockerization/pom.xml" />
         <option value="$PROJECT_DIR$/AOP/pom.xml" />
         <option value="$PROJECT_DIR$/Rest-Template/pom.xml" />
+        <option value="$PROJECT_DIR$/Redis-Cache/pom.xml" />
       </list>
     </option>
     <option name="workspaceImportForciblyTurnedOn" value="true" />

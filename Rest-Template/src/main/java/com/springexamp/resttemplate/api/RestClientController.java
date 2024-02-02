@@ -25,9 +25,9 @@ public class RestClientController {
         return ResponseEntity.ok(responseBody);
     }
     @PostMapping
-    public ResponseEntity<KisiDto> kaydet(@RequestBody KisiDto kisiDto){
+    public ResponseEntity<KisiDto> kaydet(@RequestBody KisiDto kisiDto) {
         ResponseEntity<KisiDto> result = restTemplate.postForEntity(webUrl, kisiDto, KisiDto.class);
         KisiDto responseBody = result.getBody();
         return ResponseEntity.ok(responseBody);
-
+    }
 }
