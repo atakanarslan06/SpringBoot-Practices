@@ -21,6 +21,10 @@ public class CarService {
     }
 
     public Car getCar(String name){
+        if (name.startsWith("1")) {
+            throw new IllegalArgumentException();
+        }
+
         carList.stream().filter(item -> item.getName().equals(name)).findFirst()
                 .orElseThrow(()-> new EntityNotFoundException(name));
         return null;

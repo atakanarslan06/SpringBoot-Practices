@@ -9,4 +9,14 @@ public class ApiExceptionHandler {
     public String entityNotFound() {
         return "Report not found";
     }
+
+    @ExceptionHandler({IllegalArgumentException.class})
+    public String iaException() {
+        return "Wrong parameter";
+    }
+
+    @ExceptionHandler({EntityNotFoundException.class})
+    public String entityNotFound() {
+        return "Report not found";
+    }
 }
