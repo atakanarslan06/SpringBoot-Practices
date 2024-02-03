@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/Redis-Cache/pom.xml" />
         <option value="$PROJECT_DIR$/WebSocket/pom.xml" />
         <option value="$PROJECT_DIR$/Pagination/pom.xml" />
+        <option value="$PROJECT_DIR$/Events/pom.xml" />
       </list>
     </option>
     <option name="workspaceImportForciblyTurnedOn" value="true" />

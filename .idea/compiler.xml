@@ -10,6 +10,7 @@
         <module name="Pagination" />
         <module name="AOP" />
         <module name="Elasticsearch" />
+        <module name="Events" />
         <module name="Redis-Cache" />
         <module name="DataJPA-PostgreSQL" />
         <module name="ApiDoc" />
@@ -26,6 +27,7 @@
       <module name="DataJPA-PostgreSQL" options="-parameters" />
       <module name="Dockerization" options="-parameters" />
       <module name="Elasticsearch" options="-parameters" />
+      <module name="Events" options="-parameters" />
       <module name="Pagination" options="-parameters" />
       <module name="Redis-Cache" options="-parameters" />
       <module name="Rest-Template" options="-parameters" />
