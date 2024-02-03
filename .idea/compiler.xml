@@ -14,6 +14,7 @@
         <module name="Redis-Cache" />
         <module name="DataJPA-PostgreSQL" />
         <module name="ApiDoc" />
+        <module name="Exception-Handling" />
         <module name="Dockerization" />
         <module name="Rest-Template" />
         <module name="WebSocket" />
@@ -29,6 +30,7 @@
       <module name="Dockerization" options="-parameters" />
       <module name="Elasticsearch" options="-parameters" />
       <module name="Events" options="-parameters" />
+      <module name="Exception-Handling" options="-parameters" />
       <module name="Gridfs-Fileupload-Mongo" options="-parameters" />
       <module name="Pagination" options="-parameters" />
       <module name="Redis-Cache" options="-parameters" />
