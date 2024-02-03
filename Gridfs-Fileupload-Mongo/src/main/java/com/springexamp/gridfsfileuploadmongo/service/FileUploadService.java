@@ -15,7 +15,7 @@ public class FileUploadService {
         DBObject dbObject = new BasicDBObject();
         dbObject.put("fileName", file.getName());
         dbObject.put("contentType", file.getContentType());
-        dbObject.put("s,ze", file.getSize());
+        dbObject.put("size", file.getSize());
         dbObject.put("userId", "1234");
         gridFsTemplate.store(file.getInputStream(), dbObject );
     }
