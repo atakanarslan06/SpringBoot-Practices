@@ -31,4 +31,10 @@ public class ILService {
         return ilRepository.findById(id)
         .orElseThrow(() -> new RuntimeException("Il not found"));
     }
+
+    public void updateIl(String id, Il newIl) {
+        Il oldIl = getIlNotFound(id);
+        oldIl.setName(newIl.getName());
+        ilRepository.save(oldIl);
+    }
 }

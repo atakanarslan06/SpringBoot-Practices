@@ -40,6 +40,8 @@ public class ILController {
         oldIl.setName(newIl.getName());
         oldIl.setCreateDate(new Date());
 
+        ilService.updateIl(id, newIl);
+
         return new ResponseEntity<>(OK);
     }
 
