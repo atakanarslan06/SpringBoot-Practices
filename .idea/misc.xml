@@ -16,6 +16,7 @@
         <option value="$PROJECT_DIR$/Events/pom.xml" />
         <option value="$PROJECT_DIR$/Gridfs-Fileupload-Mongo/pom.xml" />
         <option value="$PROJECT_DIR$/Exception-Handling/pom.xml" />
+        <option value="$PROJECT_DIR$/Logging/pom.xml" />
       </list>
     </option>
     <option name="workspaceImportForciblyTurnedOn" value="true" />

@@ -7,18 +7,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Pagination" />
+        <module name="Logging" />
         <module name="AOP" />
+        <module name="Exception-Handling" />
+        <module name="Dockerization" />
+        <module name="WebSocket" />
+        <module name="Gridfs-Fileupload-Mongo" />
+        <module name="Pagination" />
         <module name="Elasticsearch" />
         <module name="Events" />
         <module name="Redis-Cache" />
         <module name="DataJPA-PostgreSQL" />
         <module name="ApiDoc" />
-        <module name="Exception-Handling" />
-        <module name="Dockerization" />
         <module name="Rest-Template" />
-        <module name="WebSocket" />
-        <module name="Gridfs-Fileupload-Mongo" />
       </profile>
     </annotationProcessing>
   </component>
@@ -32,6 +33,7 @@
       <module name="Events" options="-parameters" />
       <module name="Exception-Handling" options="-parameters" />
       <module name="Gridfs-Fileupload-Mongo" options="-parameters" />
+      <module name="Logging" options="-parameters" />
       <module name="Pagination" options="-parameters" />
       <module name="Redis-Cache" options="-parameters" />
       <module name="Rest-Template" options="-parameters" />
