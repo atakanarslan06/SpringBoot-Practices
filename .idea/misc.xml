@@ -18,6 +18,7 @@
         <option value="$PROJECT_DIR$/Exception-Handling/pom.xml" />
         <option value="$PROJECT_DIR$/Logging/pom.xml" />
         <option value="$PROJECT_DIR$/ILService/pom.xml" />
+        <option value="$PROJECT_DIR$/Security/pom.xml" />
       </list>
     </option>
     <option name="workspaceImportForciblyTurnedOn" value="true" />

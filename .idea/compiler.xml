@@ -12,6 +12,7 @@
         <module name="Exception-Handling" />
         <module name="ILService" />
         <module name="Dockerization" />
+        <module name="Security" />
         <module name="WebSocket" />
         <module name="Gridfs-Fileupload-Mongo" />
         <module name="Pagination" />
@@ -39,6 +40,7 @@
       <module name="Pagination" options="-parameters" />
       <module name="Redis-Cache" options="-parameters" />
       <module name="Rest-Template" options="-parameters" />
+      <module name="Security" options="-parameters" />
       <module name="WebSocket" options="-parameters" />
     </option>
   </component>
