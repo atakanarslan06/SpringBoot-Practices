@@ -11,7 +11,7 @@ import org.springframework.security.web.SecurityFilterChain;
 public class AdminSecurityConfig {
     @Bean
     public SecurityFilterChain filterChain1(HttpSecurity http) throws Exception {
-        http.authorizeRequests().antMatchers("/").permitAll();
+        http.authorizeRequests().anyRequest().permitAll();
         return http.build();
     }
 }

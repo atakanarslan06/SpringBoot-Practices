@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html xml:base="index.html">
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>Securitiy Practice</title>
+    <title>Security Practice</title>
 </head>
 <body>
-<div class="center">
+<div align="center">
     <h2>Spring Security Practice</h2>
     <p>
-        <h4><a href="@{admin/login}"></a>Admin Login </h4>
-        <h4><a href="@{user/login}"></a>User Login </h4>
+    <h4><a th:href="@{/admin/login}">Admin Login</a></h4>
+    <h4><a th:href="@{/user/login}">User Login</a></h4>
     </p>
 </div>
 </body>
