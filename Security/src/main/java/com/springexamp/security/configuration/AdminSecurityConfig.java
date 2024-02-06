@@ -4,6 +4,7 @@ import com.springexamp.security.service.UserDetailService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.annotation.Order;
+import org.springframework.http.HttpMethod;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.crypto.password.NoOpPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
@@ -26,7 +27,7 @@ public class AdminSecurityConfig {
 
         http
                 .authorizeRequests()
-                .antMatchers("/admin/**").hasAuthority("ADMIN")
+                .dispatcherTypeMatchers(HttpMethod.valueOf("/admin/**")).hasAuthority("ADMIN")
                 .anyRequest().authenticated()
                 .and()
                 .formLogin()
