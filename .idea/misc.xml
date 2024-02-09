@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/DataJPA-PostgreSQL/pom.xml" />
+        <option value="$PROJECT_DIR$/Elasticsearch/pom.xml" />
+        <option value="$PROJECT_DIR$/ApiDoc/pom.xml" />
+        <option value="$PROJECT_DIR$/Dockerization/pom.xml" />
+        <option value="$PROJECT_DIR$/AOP/pom.xml" />
+        <option value="$PROJECT_DIR$/Rest-Template/pom.xml" />
+        <option value="$PROJECT_DIR$/Redis-Cache/pom.xml" />
+        <option value="$PROJECT_DIR$/WebSocket/pom.xml" />
+        <option value="$PROJECT_DIR$/Pagination/pom.xml" />
+        <option value="$PROJECT_DIR$/Events/pom.xml" />
+        <option value="$PROJECT_DIR$/Gridfs-Fileupload-Mongo/pom.xml" />
+        <option value="$PROJECT_DIR$/Exception-Handling/pom.xml" />
+        <option value="$PROJECT_DIR$/Logging/pom.xml" />
+        <option value="$PROJECT_DIR$/ILService/pom.xml" />
+        <option value="$PROJECT_DIR$/Security/pom.xml" />
+      </list>
+    </option>
+    <option name="workspaceImportForciblyTurnedOn" value="true" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="21" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

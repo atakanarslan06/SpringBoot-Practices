@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Logging" />
+        <module name="AOP" />
+        <module name="Exception-Handling" />
+        <module name="ILService" />
+        <module name="Dockerization" />
+        <module name="Security" />
+        <module name="WebSocket" />
+        <module name="Gridfs-Fileupload-Mongo" />
+        <module name="Pagination" />
+        <module name="Elasticsearch" />
+        <module name="Events" />
+        <module name="Redis-Cache" />
+        <module name="DataJPA-PostgreSQL" />
+        <module name="ApiDoc" />
+        <module name="Rest-Template" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="AOP" options="-parameters" />
+      <module name="ApiDoc" options="-parameters" />
+      <module name="DataJPA-PostgreSQL" options="-parameters" />
+      <module name="Dockerization" options="-parameters" />
+      <module name="Elasticsearch" options="-parameters" />
+      <module name="Events" options="-parameters" />
+      <module name="Exception-Handling" options="-parameters" />
+      <module name="Gridfs-Fileupload-Mongo" options="-parameters" />
+      <module name="ILService" options="-parameters" />
+      <module name="Logging" options="-parameters" />
+      <module name="Pagination" options="-parameters" />
+      <module name="Redis-Cache" options="-parameters" />
+      <module name="Rest-Template" options="-parameters" />
+      <module name="Security" options="-parameters" />
+      <module name="WebSocket" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/AOP/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ApiDoc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DataJPA-PostgreSQL/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Dockerization/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Elasticsearch/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Events/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Exception-Handling/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Gridfs-Fileupload-Mongo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ILService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Logging/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Pagination/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Redis-Cache/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Rest-Template/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Security/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/WebSocket/src/main/java" charset="UTF-8" />
+  </component>
+</project>
